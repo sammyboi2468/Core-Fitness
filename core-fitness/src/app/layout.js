@@ -2,7 +2,6 @@ import './globals.css';
 import LayoutWrapper from './components/layoutwrapper';
 import { Chicle, Geist, Geist_Mono } from 'next/font/google';
 import ClientLayoutWrapper from './components/ClientLayoutWrapper';
-import profile from './profile/page';
 
 const geistSans = Geist({
   subsets: ['latin'],
