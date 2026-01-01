@@ -1,9 +1,8 @@
 "use client"
-import { Edu_AU_VIC_WA_NT_Arrows } from "next/font/google";
-import { useUser } from "../Context/page"
+
 
 export default function Profile() {
-  const { user, loading } = useUser();
+  
 
   if (loading) {
     return (

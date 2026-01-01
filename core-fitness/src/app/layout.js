@@ -1,10 +1,8 @@
 import './globals.css';
 import LayoutWrapper from './components/layoutwrapper';
 import { Chicle, Geist, Geist_Mono } from 'next/font/google';
-import Navbar from './components/Navbar';
 import ClientLayoutWrapper from './components/ClientLayoutWrapper';
-import { UserProvider } from './Context/page';
-import Profile from './Profile/page';
+import profile from './profile/page';
 
 const geistSans = Geist({
   subsets: ['latin'],
@@ -23,18 +21,16 @@ export const metadata = {
 
 export default function RootLayout({ children }){
 
-
-  
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans bg-black `}
       >
-         <UserProvider>
+        
           <ClientLayoutWrapper>
             <LayoutWrapper>{children}</LayoutWrapper>
           </ClientLayoutWrapper>
-          </UserProvider>
+          
          
       </body>
     </html>

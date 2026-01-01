@@ -12,7 +12,6 @@ export default function Trainers() {
       </p>
 
       <div className="w-full max-w-3xl space-y-6">
-        {/* Trainer 1 */}
         <div className="bg-purple-100 p-6 rounded-xl shadow-md hover:shadow-lg transition">
           <h2 className="text-2xl font-semibold mb-2 text-purple-900">
             John Doe

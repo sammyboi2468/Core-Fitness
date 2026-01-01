@@ -16,7 +16,6 @@ export default function Programs() {
       </p>
 
       <div className="w-full max-w-3xl space-y-6">
-        {/* Beginner */}
         <div className="bg-green-100 p-6 rounded-xl shadow-md hover:shadow-lg transition">
           <h2 className="text-2xl font-semibold mb-2 text-green-900">
             Beginner Program
@@ -32,7 +31,6 @@ export default function Programs() {
           </button>
         </div>
 
-        {/* Intermediate */}
         <div className="bg-blue-100 p-6 rounded-xl shadow-md hover:shadow-lg transition">
           <h2 className="text-2xl font-semibold mb-2 text-blue-900">
             Intermediate Program
@@ -48,7 +46,6 @@ export default function Programs() {
           </button>
         </div>
 
-        {/* Advanced */}
         <div className="bg-red-100 p-6 rounded-xl shadow-md hover:shadow-lg transition">
           <h2 className="text-2xl font-semibold mb-2 text-red-900">
             Advanced Program

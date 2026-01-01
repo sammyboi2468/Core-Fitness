@@ -12,8 +12,8 @@ export default function ClientLayoutWrapper({ children }) {
     if (pathname === '/') {
       const timer = setTimeout(() => {
         setLoading(false);
-        router.push('/SignIn');
-      }, 2000); 
+        router.push('/home');
+      }, 4000); 
 
       return () => clearTimeout(timer);
     } else {

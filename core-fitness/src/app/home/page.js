@@ -44,10 +44,10 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4">
-          <button onClick={ () =>router.push('/Programs')} className="px-6 py-3 bg-green-600 rounded-full hover:bg-green-800 transition">
+          <button onClick={ () =>router.push('/programs')} className="px-6 py-3 bg-green-600 rounded-full hover:bg-green-800 transition">
             Start Your Journey
           </button>
-          <button onClick={ () => router.push('/Trainers')} className="px-6 py-3 bg-white text-black rounded-full hover:bg-gray-300 transition">
+          <button onClick={ () => router.push('/trainers')} className="px-6 py-3 bg-white text-black rounded-full hover:bg-gray-300 transition">
             Meet Our Trainers
           </button>
         </div>
@@ -55,3 +55,4 @@ export default function Home() {
     </div>
   );
 }
+
