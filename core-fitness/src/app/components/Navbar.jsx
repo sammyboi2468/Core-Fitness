@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between items-center px-6 py-4 bg-gray-900 text-white shadow-md">
       <Link
-        href="/"
+        href="/home"
         className="text-2xl font-extrabold tracking-wide text-green-400"
       >
         Core<span className="text-white">Fitness</span>
